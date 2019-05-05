@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.navbar-toggler {
+    z-index: 99999;
+}
+
+.navbar-brand{
+    color: red;
+}
+
+
+#navbarNav ul li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+
+.main-text{
+    font-size: 4em;
+    text-align: center;
+    
+}
+
+.card-title{
+    text-align: center;
+    color: #ff3d43;
+}
+
+.card-text{
+    font-weight: bold;
+}
+
+ol{
+    font-weight: bold;
+    text-align: center;
+    list-style-position: inside;
+    
+}
+
+
+#footerBtn{
+    border: 1px black solid;
+    margin: 20px;
+}
+
+#footerMain{
+    margin-top: 10px;
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* for devices upto 320px */
+@media screen and (max-width:320px){
+
+    .main-text{
+        font-size: 2em;
+        font-weight: bold;
+        
+    }
+
+    .card-title{
+        font-size: 2em;
+        color: #ff3d43;
+    }
+
+    .spareText{
+        font-size: 1.5em;
+    }
+}
+/* for devices between 321px and 375px */
+@media screen and (min-width:321px) and (max-width:376px) {
+    .main-text{
+        font-size: 2em;
+        font-weight: bold;
+        
+    }
+
+    .card-title{
+        font-size: 2em;
+        color: #ff3d43;
+    }
+
+    .spareText{
+        font-size: 1.5em;
+    }
+}
+
+/* for devices between 377px and 426px */
+@media screen and (min-width:377px) and (max-width:426px) {
+    .main-text{
+        font-size: 2em;
+        font-weight: bold;
+        
+    }
+
+    .card-title{
+        font-size: 2em;
+        color: #ff3d43;
+    }
+
+    .spareText{
+        font-size: 1.5em;
+    }
+}
+
+/* for devices between 427px and 769px TABLETS*/
+@media screen and (min-width:427px) and (max-width:769px) {
+    
+    .main-text{
+        font-size: 3em;
+        font-weight: bold;
+        
+    }
+
+    .card-title{
+        font-size: 1.5em;
+        color: #ff3d43;
+    }
+
+    #overview{
+        font-size: 1.3em;
+    }
+    .spareText{
+        font-size: 1.5em;
+    }
+
+    #heavySpare{
+        font-size: 1.6em;
+    }
+}
+
+
+
